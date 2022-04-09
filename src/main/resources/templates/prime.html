@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title th:text="${number} + ' is' + ${no} + ' a prime number.'"></title>
+  <meta property="og:image" th:if="${no == ''}" content="/static/images/prime.png" />
+  <meta property="og:image" th:if="${no != ''}" content="/static/images/not-prime.png" />
+</head>
+<body>
+
+</body>
+</html>
